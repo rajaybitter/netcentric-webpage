@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+	  <title>MP creation form</title>
+    <link rel="stylesheet" type="text/css" href="styles/p2.css"/>
+	  <script src="scripts/p2.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+	  <!-- Make form for input -->
+    <form id = "inputs" onsubmit="return validate();" method="post" action="p2.php">
+	  	First name:<br/>
+  		<input type="text" id="firstname" name ='fname' value=""/>
+  		<br/>
+  		Last name:<br/>
+  		<input type="text" id="lastname" name='lname' value=""/>
+  		<br/>
+  		Constituency:<br/>
+  		<input type="text" id ="constituency" name='const' value=""/>
+  		<br/>
+  		Email:<br/>
+  		<input type="text" id ="email" name= 'mail' value=""/>
+  		<br/>
+  		Years of Service:<br/>
+  		<input type="text" id ="years" name='year' value=""/>
+  		<br/>
+  		Password:<br/>
+  		<input type="password" id ="password" name='pass' value=""/>
+  		<br/>
+  		Confirm Password:<br/>
+  		<input type="password" id ="confirm" name='pass2' value=""/>
+  		<input type = 'hidden' name='hash' value='6eb6ac241942dc7226aeb'/>
+      <br/>
+  		<input type="submit" value="Submit"/>
+	  </form> 
+	</body>
+
+</html>
+

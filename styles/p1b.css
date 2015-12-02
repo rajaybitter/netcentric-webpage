@@ -1,0 +1,43 @@
+td, th{
+	padding-left: 9px;
+	padding-right: 6px;
+}
+
+table{
+	border:20px solid white;
+}
+
+th:nth-child(1),
+th:nth-child(2),
+th:nth-child(3){
+	text-align: left;
+}
+
+table{
+	outline: 10px solid #d0d0ff;
+	border-collapse:collapse;
+	border-spacing: 20px;
+	text-align: center;
+	border-spacing: 20px 20px
+}
+
+tr td:nth-child(1),
+tr td:nth-child(2),
+tr td:nth-child(3){
+	text-align: left;
+}
+
+html *
+{
+   font-size: 13px !important;
+   font-family: Tahoma, sans-serif !important;
+}
+
+tr td:nth-child(4):hover{
+	color: #cc6600;
+}
+
+tr:nth-child(8){
+	border-top:2px solid black;
+	font-weight: bold;
+}
